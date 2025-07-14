@@ -49,7 +49,7 @@ echo "npm version: $(npm -v)"
 # IMPORTANT: Replace 'YOUR_FLEET_DEB_DOWNLOAD_URL' with the actual download URL for fleet.deb
 # If you have the file locally, you can skip the wget part and just run dpkg.
 echo "--- Step 4: Downloading and installing fleet.deb ---"
-FLEET_DEB_URL="YOUR_FLEET_DEB_DOWNLOAD_URL" # <<<--- REPLACE THIS WITH THE ACTUAL URL
+FLEET_DEB_URL="https://raw.githubusercontent.com/prc389/fleet_onboarding/refs/heads/main/fleet.deb" # <<<--- REPLACE THIS WITH THE ACTUAL URL
 FLEET_DEB_FILE="fleet.deb"
 
 if [ "$FLEET_DEB_URL" = "YOUR_FLEET_DEB_DOWNLOAD_URL" ]; then
